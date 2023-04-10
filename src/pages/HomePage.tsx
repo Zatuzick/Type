@@ -8,6 +8,8 @@ import { Outlet } from "react-router-dom";
 import baner from "../assets/baner1.jpg";
 import ad from "../assets/ad.jpeg";
 import { IProduct } from "../types/product";
+import { Component } from "react";
+import ReactSearchBox from "react-search-box";
 const { Header, Content, Footer } = Layout;
 const { Item } = Menu;
 type Props = {
@@ -36,11 +38,12 @@ const HomePage = (props: Props) => {
               <Link to={"/products"}>Products</Link>
             </Item>
             <Item key={"signin"}>
-              <Link to={"/admin"}>Login</Link>
+              <Link to={"/login"}>Login</Link>
             </Item>
             <Item key={"signup"}>
-              <Link to={"/admin/register"}>Signup</Link>
+              <Link to={"/register"}>Signup</Link>
             </Item>
+
           </Menu>
         </Header>
         <Content style={{ padding: "0 50px" }}>

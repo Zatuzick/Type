@@ -14,6 +14,7 @@ import { getAllCate } from './api/category'
 
 
 
+
 function App() {
   const [products, setProduct] = useState<IProduct[]>([])
   useEffect(() => {
@@ -50,10 +51,12 @@ function App() {
             <Route index element={<ProductPage products={products} onRemove={onHandleRemove} />} />
             <Route path=':id' element={<ProductDetailPage />} />
           </Route>
+          <Route path='login' element={<Login />} />
+          <Route path='register' element={<Register />} />
+
         </Route>
         <Route path='admin'>
-          <Route index element={<Login />} />
-          <Route path='register' element={<Register />} />
+
           <Route path='products'>
             <Route index element={<ProductManagementPage products={products} onRemove={onHandleRemove} />} />
             <Route path='add' element={<AddProductPage categories={categories} onAdd={onHandleAdd} />} />

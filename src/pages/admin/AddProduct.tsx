@@ -34,17 +34,10 @@ const AddProductPage = ({ onAdd, categories }: Props) => {
   });
 
 
-  const [value, setValue] = useState(1);
-
-  const onChange = (e: RadioChangeEvent) => {
-    console.log('radio checked', e.target.value);
-    setValue(e.target.value);
-  };
-
   return (
     <div>
       <h2 style={{ textAlign: "center" }}>Add New Product</h2>
-      <div >
+      <div style={{ justifyContent: "center" }}>
         <Form
           name="basic"
           labelCol={{ span: 8 }}
@@ -58,7 +51,7 @@ const AddProductPage = ({ onAdd, categories }: Props) => {
           <Form.Item
             label="Name Product"
             name="name"
-            rules={[{ required: true, message: "Please input your name product!" }]}
+            rules={[{ required: true, message: "Please input your name Product!" }]}
           >
             <Input />
           </Form.Item>
@@ -66,10 +59,19 @@ const AddProductPage = ({ onAdd, categories }: Props) => {
           <Form.Item
             label="Price"
             name="price"
-            rules={[{ required: true, message: "Please input your price!" }]}
+            rules={[{ required: true, message: "Please input your Price!" }]}
           >
             <Input />
           </Form.Item>
+
+          <Form.Item
+            label="Categpry"
+            name="category"
+            rules={[{ required: true, message: "Please input your Category!" }]}
+          >
+            <Input />
+          </Form.Item>
+
           <Form.Item label="Link ảnh" name="image" rules={[{ required: true }]}>
             <Input placeholder="Link ảnh" />
           </Form.Item>
@@ -77,16 +79,10 @@ const AddProductPage = ({ onAdd, categories }: Props) => {
           <Form.Item
             label="Description Product"
             name="description"
-            rules={[{ required: true, message: "Please input your description!" }]}
+            rules={[{ required: true, message: "Please input your Description!" }]}
           >
             <TextArea rows={4} />
           </Form.Item>
-          <Radio.Group onChange={onChange} value={value}>
-            <Radio value={1}></Radio>
-            <Radio value={2}>B</Radio>
-            <Radio value={3}>C</Radio>
-            <Radio value={4}>D</Radio>
-          </Radio.Group>
 
           <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
             <Button type="primary" htmlType="submit">

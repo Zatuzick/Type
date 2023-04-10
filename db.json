@@ -5,70 +5,65 @@
       "name": "Redmi Note 12 Pro 5G (8GB/256GB)",
       "price": "9,490,000 ",
       "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2023/03/24/redminote12pro5g-white-1.png",
-      "description": "Redmi Note 12 Pro 5G (8GB/256GB) là phiên bản cao cấp nhất của Redmi Note 12 series trong năm nay. Công nghệ hoàn thiện, thiết kế đẹp hơn là hai yếu tố cốt lõi mà nhà Xiaomi hướng đến cho sản phẩm này. Với việc sử dụng con chip từng xuất hiện trên các dòng flagship trước đây, cộng với cụm camera ấn tượng chắc chắn thiết bị này sẽ thu hút sự quan tâm của đông đảo người dùng."
+      "description": "Redmi Note 12 Pro 5G (8GB/256GB) là phiên bản cao cấp nhất của Redmi Note 12 series trong năm nay. Công nghệ hoàn thiện, thiết kế đẹp hơn là hai yếu tố cốt lõi mà nhà Xiaomi hướng đến cho sản phẩm này. Với việc sử dụng con chip từng xuất hiện trên các dòng flagship trước đây, cộng với cụm camera ấn tượng chắc chắn thiết bị này sẽ thu hút sự quan tâm của đông đảo người dùng.",
+      "category": "Redmi"
     },
     {
       "id": 2,
       "name": "Xiaomi 13 Pro (12GB/256GB)",
       "price": "29,990,000 ",
       "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2023/02/27/xiaomi-13-pro-5.png",
-      "description": "Ra mắt vào tháng 12 năm 2022, điện thoại Xiaomi 13 Pro phiên bản 12GB/256GB sớm trở thành một trong những phiên bản điện thoại được ưa chuộng trên thị trường với khả năng sạc nhanh ấn tượng cùng nhiều thông số kỹ thuật ấn tượng."
+      "description": "Ra mắt vào tháng 12 năm 2022, điện thoại Xiaomi 13 Pro phiên bản 12GB/256GB sớm trở thành một trong những phiên bản điện thoại được ưa chuộng trên thị trường với khả năng sạc nhanh ấn tượng cùng nhiều thông số kỹ thuật ấn tượng.",
+      "category": "Xiaomi"
     },
     {
       "id": 3,
       "name": "Samsung Galaxy S22 Ultra - 12GB/256GB ",
       "price": "24,990,000 ",
       "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/02/09/image-removebg-preview-8.png",
-      "description": "Samsung Galaxy S22 Ultra đơn giản nhưng đồng thời cũng tuyệt đẹp. Các góc cạnh của sản phẩm hoàn thiện sắc nét, vuông vắn. Cụm camera vuông như mọi năm đã biến mất, thay vào đó là một thiết kế đồng bộ camera với mặt lưng. Chúng phẳng hơn và liền lạc, tổng thể là đơn giản nhưng đẹp mắt."
+      "description": "Samsung Galaxy S22 Ultra đơn giản nhưng đồng thời cũng tuyệt đẹp. Các góc cạnh của sản phẩm hoàn thiện sắc nét, vuông vắn. Cụm camera vuông như mọi năm đã biến mất, thay vào đó là một thiết kế đồng bộ camera với mặt lưng. Chúng phẳng hơn và liền lạc, tổng thể là đơn giản nhưng đẹp mắt.",
+      "category": "SamSung"
     },
     {
       "id": 4,
       "name": "Samsung Galaxy Z Fold4 - 512GB",
       "price": "39,190,000  ",
       "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/08/11/screenshot-2022-08-11-091933-removebg-preview.png",
-      "description": "Có rất nhiều tin đồn xoay xung quanh siêu phẩm Samsung Galaxy Z Fold mới. Sản phẩm dụ kiến được ra mắt vào tháng 8 tới đây chắc chắn sẽ làm mưa làm gió tại thị trường Việt Nam."
+      "description": "Có rất nhiều tin đồn xoay xung quanh siêu phẩm Samsung Galaxy Z Fold mới. Sản phẩm dụ kiến được ra mắt vào tháng 8 tới đây chắc chắn sẽ làm mưa làm gió tại thị trường Việt Nam.",
+      "category": "SamSung"
     },
     {
       "id": 5,
       "name": "OPPO Reno7 5G ",
       "price": "7,990,000",
       "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/02/28/reno7-3.png",
-      "description": "OPPO Reno7 5G là chiếc điện thoại với mức giá cao cấp của hãng sở hữu thiết kế siêu mỏng, trọng lượng nhẹ và kiểu dáng vô cùng thời thượng. Với kiểu thiết kế này, điện thoại đem lại cảm giác vừa vặn trong tay khi cầm nắm, dễ dàng bỏ vào túi, thậm chí trải nghiệm chơi game, xem phim trong thời gian dài nhưng không cảm giác bị mỏi tay."
+      "description": "OPPO Reno7 5G là chiếc điện thoại với mức giá cao cấp của hãng sở hữu thiết kế siêu mỏng, trọng lượng nhẹ và kiểu dáng vô cùng thời thượng. Với kiểu thiết kế này, điện thoại đem lại cảm giác vừa vặn trong tay khi cầm nắm, dễ dàng bỏ vào túi, thậm chí trải nghiệm chơi game, xem phim trong thời gian dài nhưng không cảm giác bị mỏi tay.",
+      "category": "OPPO"
     },
     {
       "id": 6,
       "name": "OPPO Reno8 Pro ",
       "price": "17,490,000",
       "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/28/combo-product-reno8-pro-green-removebg-preview.png",
-      "description": "OPPO Reno8 Pro là chiếc smartphone mới lạ thuộc phân khúc cao cấp, là sự lựa chọn lý tưởng bên cạnh các dòng smartphone đã quá quen thuộc như iPhone, Samsung."
+      "description": "OPPO Reno8 Pro là chiếc smartphone mới lạ thuộc phân khúc cao cấp, là sự lựa chọn lý tưởng bên cạnh các dòng smartphone đã quá quen thuộc như iPhone, Samsung.",
+      "category": "OPPO"
     },
     {
       "id": 7,
       "name": "iPhone 14 Pro Max (1TB)",
       "price": "41,390,000",
       "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/09/08/222222.png",
-      "description": "iPhone 14 Pro Max VN/A là dòng sản phẩm cao cấp nhất nằm trong thế hệ iPhone 14 Series mới vừa được ra mắt cùng với nhiều nâng cấp về ngoại hình và tính năng, hứa hẹn sẽ là dòng sản phẩm đột phá trong vài năm trở lại đây của Apple."
+      "description": "iPhone 14 Pro Max VN/A là dòng sản phẩm cao cấp nhất nằm trong thế hệ iPhone 14 Series mới vừa được ra mắt cùng với nhiều nâng cấp về ngoại hình và tính năng, hứa hẹn sẽ là dòng sản phẩm đột phá trong vài năm trở lại đây của Apple.",
+      "category": "IPhone"
     },
     {
       "id": 8,
       "name": "XOR Điểm Vàng PRIME GOLD",
       "price": "485,000,000",
       "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2022/01/25/55.png",
-      "description": "XOR Điểm Vàng PRIME GOLD là dòng điện thoại phiên bản giới hạn chào đón năm mới Nhâm Dần 2022. Đây sẽ là lựa chọn không thể bỏ qua với những tín đồ có sở thích sử dụng các chiếc điện thoại độc lạ nhất"
+      "description": "XOR Điểm Vàng PRIME GOLD là dòng điện thoại phiên bản giới hạn chào đón năm mới Nhâm Dần 2022. Đây sẽ là lựa chọn không thể bỏ qua với những tín đồ có sở thích sử dụng các chiếc điện thoại độc lạ nhất",
+      "category": "XOR"
     }
   ],
-  "users": [
-    {
-      "email": "admin@gmail.com",
-      "password": "123456",
-      "confirmPassword": "123456",
-      "id": 1
-    },
-    {
-      "email": "axx@gmail.com",
-      "password": "123456",
-      "confirmPassword": "123456",
-      "id": 2
-    }
-  ]
+  "users": []
 }

@@ -35,7 +35,7 @@ const ProductPage = (props: IProps) => {
                             >
                                 <Card.Meta title={item.name} description={<span style={{ color: 'red', justifyItems: "center", margin: "0px" }}>{item.price} ₫</span>} />
                                 <Link to={`/products/${item.id}`}>
-                                    <Button>View Details</Button>
+                                    <Button style={{ width: "100%", marginTop: "10px" }} type="primary" block>View Details</Button>
                                 </Link>
                             </Card>
                         </Col>

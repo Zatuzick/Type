@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import { Button, Space, Table, Tag } from "antd";
+import { Button, Popconfirm, Space, Table, Tag } from "antd";
 import type { ColumnsType } from "antd/es/table";
 import { IProduct } from "../../types/product";
 import { Link } from "react-router-dom";
@@ -17,7 +17,7 @@ const ProductManagementPage = ({ products, onRemove }: Props) => {
       name: product.name,
       price: product.price,
       image: product.image,
-      categoryId: product.categoryId,
+      category: product.category,
       description: product.description,
     };
   });
@@ -27,11 +27,11 @@ const ProductManagementPage = ({ products, onRemove }: Props) => {
     price: number;
     image: string;
     description: string;
-    categoryId: string[];
+    category: string;
   }
   const onHandleRemove = (id: number | string) => {
-    const status = confirm("Bạn chắc chưa???")
-    if (status) {
+    const title = "Sure to delete?"
+    if (title) {
       onRemove(id);
     }
   };
@@ -53,7 +53,7 @@ const ProductManagementPage = ({ products, onRemove }: Props) => {
       dataIndex: "image",
       key: "image",
       render: (image) =>
-        <div type="width:100px; height:150px">
+        <div typeof="width:100px; height:150px">
           <img src={image} alt="product" width="100px" height="150px" />
         </div>,
     },
@@ -64,8 +64,8 @@ const ProductManagementPage = ({ products, onRemove }: Props) => {
     },
     {
       title: "Category",
-      dataIndex: "categoryId",
-      key: "categoryId",
+      dataIndex: "category",
+      key: "category",
     },
 
     {
@@ -76,14 +76,9 @@ const ProductManagementPage = ({ products, onRemove }: Props) => {
           <Button type="primary">
             <Link to={`/admin/products/${record.key}/update`}>Edit</Link>{" "}
           </Button>
-          <Button
-            type="primary"
-            danger
-            ghost
-            onClick={() => onHandleRemove(record.key)}
-          >
-            Remove
-          </Button>
+          <Popconfirm title="Sure to delete?" onConfirm={() => onHandleRemove(record.key)}>
+            <Button type="primary" danger>DELETE</Button>
+          </Popconfirm>
         </Space>
       ),
     },
